@@ -14,25 +14,31 @@ function Customers() {
 
       <div className="flex pt-10 flex-wrap justify-center gap-5 mt-10 md:justify-around">
         <div className="text-gray-400 dark:text-gray-400">
-          <img
-            className="max-h-14 hover:filter-none grayscale"
-            alt="customer"
-            src={SanRafaelLogo}
-          />
+          <a href="https://www.colegiosanrafael.com.br" target="_blank">
+            <img
+              className="max-h-14 hover:filter-none grayscale"
+              alt="customer"
+              src={SanRafaelLogo}
+            />
+          </a>
         </div>
         <div className="text-gray-400 dark:text-gray-400">
-          <img
-            className="max-h-14 hover:filter-none grayscale"
-            alt="customer"
-            src={AtheneuLogo}
-          />
+          <a href="https://www.seduc.se.gov.br" target="_blank">
+            <img
+              className="max-h-14 hover:filter-none grayscale"
+              alt="customer"
+              src={AtheneuLogo}
+            />
+          </a>
         </div>
         <div className="text-gray-400 dark:text-gray-400">
-          <img
-            className="max-h-14 hover:filter-none grayscale"
-            alt="customer"
-            src={AliancaFrancesaLogo}
-          />
+          <a href="http://www.afaju.com.br" target="_blank">
+            <img
+              className="max-h-14 hover:filter-none grayscale"
+              alt="customer"
+              src={AliancaFrancesaLogo}
+            />
+          </a>
         </div>
         <div className="text-gray-400 dark:text-gray-400">
           <img
